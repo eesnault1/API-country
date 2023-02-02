@@ -18,19 +18,19 @@
             />
         </div>
         <div class="w-1/2 m-auto">
-            <div class="font-bold text-2xl">
-                {{ countryDisplayArray.name }}
+            <div class="font-bold text-2xl mb-4">
+                {{ countryDisplayArray.name.value }}
             </div>
             <div
-              v-for="(item, key) in countryDisplayArray"
-              :key="item"
+              v-for="item in countryDisplayArray"
+              :key="item.texte"
               class="flex gap-2"
             >
                 <div class="font-semibold">
-                    {{ key }} :
+                    {{ item.texte }} :
                 </div>
                 <div class="text-slate-700">
-                    {{ item }}
+                    {{ item.value }}
 
                 </div>
             </div>
@@ -104,7 +104,6 @@ const listBorderCountry = () => {
         }) 
     } 
 }
-
 listBorderCountry()
 
 // Permet de renvoyver vers le pays quand on clic surle pays border (en double sur CardCountry)
