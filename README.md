@@ -1,24 +1,18 @@
-# country-api
+# API-country
 
-## Project setup
-```
-npm install
-```
+### Simple website create with VUE JS 3 (composition API), Pinia store and Tailwind CSS
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+The goal was to focus on VUE JS. 
+It's my second project. 
 
-### Compiles and minifies for production
+## Setup
+
+### To view this project 
+
 ```
-npm run build
+$ npm install
 ```
 
-### Lints and fixes files
 ```
-npm run lint
+$ npm run serve
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
